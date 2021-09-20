@@ -1,0 +1,201 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color:white;
+}
+
+/* header */
+
+.header{
+    background-color: black;
+    color: white;
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    justify-content: space-between;
+    overflow-x: scroll;
+}
+
+.headerIcon_sony img{
+    cursor: pointer;
+    width: 80px;
+    object-fit: contain;
+    margin-right: 50px;
+}
+
+.header::-webkit-scrollbar{
+    display: none;
+}
+
+.header{
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    padding-left: 200px;
+    padding-right: 140px;
+}
+
+.header_icons{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #e4e7eb;
+}
+
+.headerIcon i,h5{
+    cursor: pointer;
+    display: flex;
+    margin-right: 10px;
+    font-size: 15px;
+}
+
+.headerIcon1{
+    display: flex;
+    cursor: pointer;
+    margin-right: 0px;
+}
+
+.headerIcon1 h5{
+    margin-top: 7px;
+}
+
+.headerRight{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #e4e7eb;
+    font-size: 11px;
+}
+
+.header_icon{
+    cursor: pointer;
+    display: flex;
+    margin-right: 10px;
+    color: #e4e7eb;
+    font-size: 15px;
+}
+
+.header_icon1{
+    display: flex;
+    cursor: pointer;
+    margin-right: 0px;
+}
+
+.header_icon1 h4{
+    margin-top: 7px;
+}
+
+.header_buttons{
+    display:flex;
+    margin-right: 20;
+    height: 30px;
+}
+
+.header_button1{
+    cursor: pointer;
+    color: #e4e7eb;
+    background-color: #504d56;
+    outline: none;
+    border: none;
+    font-weight: 700;
+    border-radius: 0.2vw;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    margin-right: 1rem;
+    padding-bottom: 0.5rem;
+}
+
+.header_button2{
+    cursor: pointer;
+    color: #e4e7eb;
+    background-color: #2f353d;
+    outline: none;
+    border: none;
+    font-weight: 700;
+    border-radius: 0.2vw;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    margin-right: 1rem;
+    padding-bottom: 0.5rem;
+}
+
+.header_button1:hover{
+    color:white;
+    background-color: #5d58f5;
+    transition: all 0.2s;
+}
+
+.header_button2:hover{
+    color:white;
+    background-color: #504d56;
+    transition: all 0.2s;
+}
+
+.header_icon:hover{
+    color:white;
+    background-color: #504d56;
+    transition: all 0.2s;
+}
+
+.banner{
+    background-image: url('images/sony.jpg');
+    background-size: cover;
+    color: white;
+    object-fit: contain;
+    background-position: -300px;
+    height: 600px;
+}
+.search {
+    transform: rotate(90deg);
+}
+
+.banner_contents{
+    margin-left: 30px;
+    padding: 56px;
+    padding-left: 100;
+    height: 190px;
+}
+
+.banner_title{
+    font-size: .9375em;
+    line-height: 1.46667;
+}
+
+.banner_head{
+    margin-top: 0;
+    margin-bottom: 20px;
+    margin-left: -2px;
+}
+
+.banner span{
+    font-size: 14;
+    position: absolute;
+    color: blue ;
+}
+
+.banner_button{
+    cursor: pointer;
+    color: #e4e7eb;
+    background-color: blueviolet;
+    outline: none;
+    border: none;
+    font-weight: 700;
+    border-radius: 0.2vw;
+    padding:11px 24px 13px;
+   
+    margin-right: 1rem;
+    padding-bottom: 0.5rem;
+    
+}
+
+.banner_button:hover{
+    color:white;
+    background-color: blue;
+    transition: all 0.2s;
+}
+
+.banner_description img{
+    margin-left: -50px;
+}
